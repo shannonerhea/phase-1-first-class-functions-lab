@@ -46,8 +46,8 @@ const createFareMultiplier = multiplier => function(fare) { return fare * multip
 //  const fairDoubler = createFareMultiplier(fare) {
 //     return " wtf"
 //  };
-const fareDoubler(singleArg) {
-    const newFunct = function(fare) {
-        return //a val created by passing the arg collected in fareDoubler into the new variable declared in const
-    };
-};
+// const fareDoubler(singleArg) {
+//     const newFunct = function(fare) {
+//         return //a val created by passing the arg collected in fareDoubler into the new variable declared in const
+//     };
+// };
