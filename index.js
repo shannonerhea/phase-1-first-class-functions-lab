@@ -58,6 +58,12 @@ function fareDoubler(fare) {
     return fare * 3;
  };
 
- /**selectDifferentDrivers(arrayOfDrivers, function)
-         returns the first two drivers when passed returnFirstTwoDrivers() as the second argument: */
-//function selectDifferentDrivers(arrayOfDrivers, function) {};
+ /**selectDifferentDrivers() — This function takes two arguments, 
+  * an array of the names of Scuber's drivers and either the returnFirstTwoDrivers() 
+  * or returnLastTwoDrivers() function. 
+  * Based on these two arguments, 
+  * selectDifferentDrivers() will return either the first two drivers or the last two drivers.
+ */
+function selectDifferentDrivers(arrayOfDrivers, returnFirstTwoDrivers) {
+    return returnFirstTwoDrivers(arrayOfDrivers)
+};
