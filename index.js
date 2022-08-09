@@ -10,4 +10,10 @@ const returnFirstTwoDrivers = (arr) => {
   }
  //returnLastTwoDrivers()
  //1) should return an array of the last two drivers
-const returnLastTwoDrivers = (arr) => {};
+const returnLastTwoDrivers = (arr) => {
+    return arr.slice(2);
+};
+
+// 1) has the `returnFirstTwoDrivers` function to as its first element
+//const selectingDrivers = (drivers) => {};
+const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers];
