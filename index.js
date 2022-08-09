@@ -51,3 +51,13 @@ const createFareMultiplier = multiplier => function(fare) { return fare * multip
 //         return //a val created by passing the arg collected in fareDoubler into the new variable declared in const
 //     };
 // };
+function fareDoubler(fare) {
+    return fare * 2;
+};
+ function fareTripler(fare) {
+    return fare * 3;
+ };
+
+ /**selectDifferentDrivers(arrayOfDrivers, function)
+         returns the first two drivers when passed returnFirstTwoDrivers() as the second argument: */
+//function selectDifferentDrivers(arrayOfDrivers, function) {};
